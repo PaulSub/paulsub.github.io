@@ -1,0 +1,115 @@
+.reviews.main {
+    background-color: #fff;
+    padding: 30px 0;
+}
+.multiple-items {
+    width: 100%;
+    position: relative;
+}
+.multiple-items>div {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0;
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+.inf-man {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    font-style: italic;
+}
+.inf-man img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.inf-man strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+.inf-man small {
+    font-weight: 300;
+    display: block;
+}
+
+.inf-text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 24px;
+    width: 750px;
+}
+
+.inf-text strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.inf-text p {
+    font-weight: 300;
+    margin: 0;
+}
+.slick-arrow {
+    background: #fff url(images/rew_left.png) no-repeat;
+    width: 29px;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    border: none;
+    color: transparent;
+    font-size: 0;
+    opacity: 0.8;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.slick-arrow:hover {opacity: 1;background-color: #fff !important;}
+.slick-prev {
+    left: 40px;
+}
+.slick-next {
+    background: #fff url(images/rew_right.png) no-repeat;
+    right: 40px;
+}
+
+@media (min-width: 849px) and (max-width: 1169px) {
+    .inf-text {width: 500px;}
+    .slick-next {right: 20px;}
+    .slick-prev {left: 20px;}
+}
+
+.only__list p {
+    vertical-align: middle;
+    display: inline-block;
+    min-height: 36px;
+}
+.only__list li {
+    margin-bottom: 30px;
+}
+@media screen and (max-device-width: 450px) {
+  .inf-text{
+    font-size: 48px;
+    margin-left: 20px;
+    line-height: 53px;
+  }
+  .inf-text strong{
+    font-size: 38px;
+  }
+  .inf-man {
+    font-size: 31px;
+  }
+}
